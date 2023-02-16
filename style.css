@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background: rgb(174, 226, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Rubik", sans-serif;
+  }
+
+.container {
+    position: relative;
+    width: 100%;
+    
+    min-height: 1081px;
+    background: rgb(239, 224, 175);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------LEFT SECTION--------- */
+
+.container .leftSide {
+    position: relative;
+    background: #737371;
+    padding: 40px;
+    color: white;
+}
+
+.leftSide .imgBox {
+    position: relative;
+    
+    width: 277px;
+    height: 374px;
+    border-radius: 40%;
+    overflow: hidden;
+}
+
+.leftSide .imgBox img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.profileText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profileText h2 {
+    
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+    margin-top: 98px;
+    
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.profileText h2 span {
+    font-size: .8em;
+}
+
+.contactInfo {
+    padding-top: 40px;
+    font-family: 'Noto Serif', serif;
+  }
+  
+  .title {
+    
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo ul {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+
+  .contactInfo ul .text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    
+  }
+  
+  .contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .contactInfo ul li span {
+    
+    font-weight: 300;
+  }
+  
+  .contactInfo a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.aboutText {
+    position: relative;
+    
+    text-decoration: none;
+}
+.aboutText{
+    padding-top: 20px;
+}
+.aboutText .title {
+    font-family: 'Noto Serif', serif;
+    
+    font-weight: 1000;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.aboutText p{
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Noto Serif', serif;
+}
+
+/* ---------MID SECTION--------- */
+
+.container .midSide {
+    position: relative;
+    background: #f8f7f3;
+    padding: 40px;
+    color: rgb(60, 60, 60)
+}
+
+.midSide .educationMid .titleEducation {
+    font-family: 'Noto Serif', serif;
+    font-weight: 1000;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.midSide .educationMid h5 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.midSide .educationMid h4 {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.midSide .educationMid p {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.midSide .educationMid .box1 {
+    padding-top: 20px;
+}
+
+.midSide .educationMid .box2 {
+    padding-top: 20px;
+}
+
+/* ---------RIGHT SECTION--------- */
+
+.container .rightSide {
+    position: relative;
+    background: #f8f7f3;
+    padding: 40px;
+}
+
+.rightSide .educationRight h5 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.rightSide .educationRight h4 {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.rightSide .educationRight p {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.rightSide .educationRight .box3 {
+    padding-top: 52.33px;
+}
+
+.rightSide .educationRight .box4 {
+    padding-top: 20px;
+}
+
+/* EXPERIENCE BOX */
+
+.rightSide .workXpBox .workXpBox-title {
+    padding-top: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 1000;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.rightSide .workXpBox p {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+/* INFO BOXES */
+
+.infoBox {
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.infoBox .leftInfoBox h4 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.infoBox .leftInfoBox .teckStackList {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.infoBox .leftInfoBox p {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.infoBox .midInfoBox h4 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.infoBox .midInfoBox p {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight:600;
+    font-size: 18px;
+}
+
+.infoBox .rightInfoBox h4 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.infoBox .rightInfoBox ul {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.infoBox .rightInfoBox ul li {
+    
+    font-family: 'Noto Serif', serif;
+    font-weight:600;
+    font-size: 18px;
+}
