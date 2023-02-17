@@ -37,6 +37,7 @@ body {
     background: #737371;
     padding: 40px;
     color: white;
+    padding-right: 0;
 }
 
 .leftSide .imgBox {
@@ -147,6 +148,7 @@ body {
 
 .aboutText p{
     padding-top: 13px;
+    padding-right: 40px;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -352,6 +354,7 @@ body {
         background: #737371;
         padding: 40px;
         color: white;
+        padding-right: 0;
     }
     
     .leftSide .imgBox {
@@ -461,6 +464,7 @@ body {
     
     .aboutText p{
         padding-top: 15px;
+        padding-right: 40px;
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 1px;
