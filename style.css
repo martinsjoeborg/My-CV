@@ -17,7 +17,7 @@ body {
     position: relative;
     width: 100%;
     
-    min-height: 1081px;
+    min-height: 904px;
     background: rgb(239, 224, 175);
     margin: 50px;
     display: grid;
@@ -37,8 +37,8 @@ body {
 .leftSide .imgBox {
     position: relative;
     
-    width: 277px;
-    height: 374px;
+    width: 250px;
+    height: 308px;
     border-radius: 40%;
     overflow: hidden;
 }
@@ -82,20 +82,20 @@ body {
     
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 20px;
   }
   
   .contactInfo ul {
     position: relative;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
   }
 
   .contactInfo ul .text {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
   }
   
@@ -109,7 +109,7 @@ body {
   .contactInfo ul li .icon {
     display: inline-block;
     width: 30px;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
   }
   
@@ -135,14 +135,14 @@ body {
     font-family: 'Noto Serif', serif;
     
     font-weight: 1000;
-    font-size: 19px;
+    font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
 
 .aboutText p{
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Noto Serif', serif;
@@ -160,7 +160,7 @@ body {
 .midSide .educationMid .titleEducation {
     font-family: 'Noto Serif', serif;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
@@ -168,21 +168,21 @@ body {
 .midSide .educationMid h5 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .midSide .educationMid h4 {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .midSide .educationMid p {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .midSide .educationMid .box1 {
@@ -204,21 +204,21 @@ body {
 .rightSide .educationRight h5 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .rightSide .educationRight h4 {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .rightSide .educationRight p {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .rightSide .educationRight .box3 {
@@ -235,7 +235,7 @@ body {
     padding-top: 30px;
     font-family: 'Noto Serif', serif;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
@@ -244,7 +244,7 @@ body {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 
 }
 
@@ -261,38 +261,35 @@ body {
 .infoBox .leftInfoBox h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .infoBox .leftInfoBox .teckStackList {
     padding-top: 10px;
-    font-family: 'Noto Serif', serif;
-    font-weight: 400;
-    font-size: 18px;
 }
 .infoBox .leftInfoBox p {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .infoBox .midInfoBox h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .infoBox .midInfoBox p {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight:600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .infoBox .rightInfoBox h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .infoBox .rightInfoBox ul {
@@ -304,5 +301,5 @@ body {
     
     font-family: 'Noto Serif', serif;
     font-weight:600;
-    font-size: 18px;
+    font-size: 14px;
 }
