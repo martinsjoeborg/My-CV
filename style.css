@@ -1,3 +1,8 @@
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------LAPTOP VIEW------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +10,7 @@
   }
 
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(174, 226, 219);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +22,7 @@ body {
     position: relative;
     width: 100%;
     
-    min-height: 904px;
+    min-height: 800px;
     background: rgb(239, 224, 175);
     margin: 50px;
     display: grid;
@@ -37,8 +42,8 @@ body {
 .leftSide .imgBox {
     position: relative;
     
-    width: 250px;
-    height: 308px;
+    width: 200px;
+    height: 250px;
     border-radius: 40%;
     overflow: hidden;
 }
@@ -61,7 +66,7 @@ body {
 .profileText h2 {
     
     font-family: 'Noto Serif', serif;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 98px;
     
     text-align: center;
@@ -70,7 +75,7 @@ body {
 }
 
 .profileText h2 span {
-    font-size: .8em;
+    font-size: .5em;
 }
 
 .contactInfo {
@@ -82,27 +87,27 @@ body {
     
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    letter-spacing: .8px;
     margin-bottom: 20px;
   }
   
   .contactInfo ul {
     position: relative;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: .8px;
   }
 
   .contactInfo ul .text {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
   }
   
   .contactInfo ul li {
     position: relative;
     list-style: none;
-    margin: 10px 0;
+    margin: 5px 0;
     
   }
   
@@ -129,20 +134,20 @@ body {
     text-decoration: none;
 }
 .aboutText{
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .aboutText .title {
     font-family: 'Noto Serif', serif;
     
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
 
 .aboutText p{
-    padding-top: 15px;
-    font-size: 14px;
+    padding-top: 13px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
     font-family: 'Noto Serif', serif;
@@ -160,7 +165,7 @@ body {
 .midSide .educationMid .titleEducation {
     font-family: 'Noto Serif', serif;
     font-weight: 1000;
-    font-size: 25px;
+    font-size: 23px;
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
@@ -168,21 +173,21 @@ body {
 .midSide .educationMid h5 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .midSide .educationMid h4 {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .midSide .educationMid p {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .midSide .educationMid .box1 {
@@ -205,21 +210,21 @@ body {
 .rightSide .educationRight h5 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .rightSide .educationRight h4 {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .rightSide .educationRight p {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .rightSide .educationRight .box3 {
@@ -236,7 +241,7 @@ body {
     padding-top: 30px;
     font-family: 'Noto Serif', serif;
     font-weight: 1000;
-    font-size: 25px;
+    font-size: 23px;
     letter-spacing: 1px;
     margin-bottom: 0px;
 }
@@ -245,7 +250,7 @@ body {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 
@@ -262,7 +267,7 @@ body {
 .infoBox .leftInfoBox h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .infoBox .leftInfoBox .teckStackList {
@@ -271,26 +276,26 @@ body {
 .infoBox .leftInfoBox p {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .infoBox .midInfoBox h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .infoBox .midInfoBox p {
     padding-top: 10px;
     font-family: 'Noto Serif', serif;
     font-weight:600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .infoBox .rightInfoBox h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .infoBox .rightInfoBox ul {
@@ -302,17 +307,17 @@ body {
     
     font-family: 'Noto Serif', serif;
     font-weight:600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /*--------------------------------------*/
 /*--------------------------------------*/
-/*--------------LAPTOP VIEW------------*/
+/*--------------DESKTOP VIEW------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1536px) {
     * {
         margin: 0;
         padding: 0;
@@ -374,12 +379,11 @@ body {
     }
     
     .profileText h2 {
-        
+        position: relative;
         font-family: 'Noto Serif', serif;
         font-size: 2em;
         margin-top: 98px;
         
-        text-align: center;
         font-weight: 600;
         line-height: 1.3em;
     }
