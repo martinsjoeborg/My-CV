@@ -10,7 +10,7 @@
   }
 
 body {
-    background: rgb(255, 138, 4);
+    background: rgb(222, 201, 178);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,6 +199,51 @@ body {
 .midSide .educationMid .box2 {
     padding-top: 20px;
 }
+
+/*-------EXPERIENCE INDUSTRY-------*/
+
+
+.industry-experience-box .title-industry-experience {
+    font-family: 'Noto Serif', serif;
+    font-weight: 1000;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.industry-content-box .wealthrone-container h5 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 18px;
+}
+.industry-content-box .wealthrone-container h5.h5-title {
+    padding-top: 0;
+}
+
+.industry-content-box .wealthrone-container h4 {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.rightSide .workXpBox .workXpBox-title {
+    padding-top: 30px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 1000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.rightSide .workXpBox p {
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
 
 /* ---------RIGHT SECTION--------- */
 
